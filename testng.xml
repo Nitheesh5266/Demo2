@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RediffSuite">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="RediffTest">
+        <classes>
+            <class name="RediffTCs.RediffTest"/>
+        </classes>
+    </test>
+
+</suite>

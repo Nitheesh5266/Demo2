@@ -1,0 +1,10 @@
+<suite name="Production Testing Framework">
+    <listeners>
+        <listener class-name="RediffTCs.ExtentReportListener1"/>
+    </listeners>
+    <test name="Regression Cycle">
+        <classes>
+            <class name="RediffTCs.RediffTC3"/>
+        </classes>
+    </test>
+</suite>

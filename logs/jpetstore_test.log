@@ -1,0 +1,14 @@
+2026-06-14 18:28:44 [main] INFO  com.jpetstore.utils.BaseTest - ========== TEST SUITE STARTED ==========
+2026-06-14 18:28:44 [main] INFO  com.jpetstore.utils.BaseTest - Initializing ChromeDriver...
+2026-06-14 18:28:50 [main] INFO  com.jpetstore.utils.BaseTest - ChromeDriver initialized successfully.
+2026-06-14 18:28:50 [main] INFO  com.jpetstore.tests.JPetStoreE2ETest - >>> TC01: Verify Home Page Loads <<<
+2026-06-14 18:28:50 [main] INFO  com.jpetstore.pages.HomePage - Navigating to Home Page: https://jpetstore.aspectran.com
+2026-06-14 18:28:52 [main] INFO  com.jpetstore.pages.HomePage - Home Page loaded. Title: JPetStore Demo
+2026-06-14 18:28:52 [main] INFO  com.jpetstore.tests.JPetStoreE2ETest - TC01 PASSED
+2026-06-14 18:28:52 [main] INFO  com.jpetstore.tests.JPetStoreE2ETest - >>> TC02: Login <<<
+2026-06-14 18:28:52 [main] INFO  com.jpetstore.pages.HomePage - Clicking Sign In link
+2026-06-14 18:28:52 [main] INFO  com.jpetstore.pages.LoginPage - Entering username: j2ee
+2026-06-14 18:28:53 [main] INFO  com.jpetstore.pages.LoginPage - Entering password
+2026-06-14 18:28:53 [main] INFO  com.jpetstore.pages.LoginPage - Clicking Login button
+2026-06-14 18:29:03 [main] INFO  com.jpetstore.utils.BaseTest - Closing browser...
+2026-06-14 18:29:03 [main] INFO  com.jpetstore.utils.BaseTest - ========== TEST SUITE ENDED ==========
