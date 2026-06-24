@@ -21,8 +21,8 @@ public class InsertTable {
             PreparedStatement ps = con.prepareStatement(query);
  
             ps.setInt(1, 1);
-            ps.setString(2, "Sai");
-            ps.setInt(3, 23);
+            ps.setString(2, "Srivalli");
+            ps.setInt(3, 22);
  
             ps.executeUpdate();
  
